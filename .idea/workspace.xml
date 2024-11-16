@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be457e20-440a-4529-997b-357d680ce870" name="Changes" comment="conf(eslint): upgrade eslint to v9.x and migrate config file" />
+    <list default="true" id="be457e20-440a-4529-997b-357d680ce870" name="Changes" comment="chore: format code" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,9 +18,9 @@
       <scroll-view-position x="0" y="0" />
     </layout>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2ouPN7no7MOSxqON3vviNlgSk6r" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
@@ -44,7 +44,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "pnpm",
     "settings.editor.selected.configurable": "actions.on.save",
-    "ts.external.directory.path": "D:\\Project\\KSMAndroidUPNVJ\\2024\\StudyClub\\WebIntermediate\\syahrul-aziz-web-intermediate-2024\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "C:\\Users\\LEGION\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -73,7 +73,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731722026315</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="chore: format code">
+      <option name="closed" value="true" />
+      <created>1731733337181</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731733337181</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,6 +89,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="conf(eslint): upgrade eslint to v9.x and migrate config file" />
-    <option name="LAST_COMMIT_MESSAGE" value="conf(eslint): upgrade eslint to v9.x and migrate config file" />
+    <MESSAGE value="conf(eslint): add lint-staged and commitlint&#10;&#10;- add lint-staged config to run prettier and eslint on staged files&#10;- add lint-staged to pre-commit hook&#10;- add lint-staged to pre-push hook&#10;- enable commitlint with husky" />
+    <MESSAGE value="chore: format code" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: format code" />
   </component>
 </project>
