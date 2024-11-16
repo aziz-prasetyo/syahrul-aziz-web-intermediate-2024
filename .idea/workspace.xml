@@ -13,6 +13,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupnpm">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
 }]]></component>
@@ -58,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731716445502</updated>
-      <workItem from="1731716447615" duration="7457000" />
+      <workItem from="1731716447615" duration="7916000" />
     </task>
     <task id="LOCAL-00001" summary="conf(eslint): upgrade eslint to v9.x and migrate config file">
       <option name="closed" value="true" />
