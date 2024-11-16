@@ -16,7 +16,12 @@ const compat = new FlatCompat({
 /** @type {import('eslint').Linter.Config[]} */
 const eslintConfig = [
 	{
-		ignores: ['**/node_modules/*', '**/.next/*', '**/.idea/*', '**/.vscode/*'],
+		ignores: [
+			'**/node_modules/*',
+			'**/.next/*',
+			'**/.idea/*',
+			'**/.vscode/*',
+		],
 	},
 	{
 		name: 'ESLint Config - Next.js',
@@ -35,12 +40,20 @@ const eslintConfig = [
 		},
 		files: ['**/*.{js,mjs,cjs,ts,jsx,tsx}'],
 		rules: {
-			'@typescript-eslint/no-unused-expressions': ['error', { allowShortCircuit: false }],
+			'@typescript-eslint/no-unused-expressions': [
+				'error',
+				{ allowShortCircuit: false },
+			],
 			...pluginNext.configs.recommended.rules,
 			...pluginNext.configs['core-web-vitals'].rules,
 		},
 	},
-	...compat.extends('eslint:recommended', 'next/core-web-vitals', 'next/typescript', 'prettier'),
+	...compat.extends(
+		'eslint:recommended',
+		'next/core-web-vitals',
+		'next/typescript',
+		'prettier',
+	),
 ];
 
 export default eslintConfig;
