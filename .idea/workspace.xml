@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be457e20-440a-4529-997b-357d680ce870" name="Changes" comment="chore: format code" />
+    <list default="true" id="be457e20-440a-4529-997b-357d680ce870" name="Changes" comment="ci(commitlint): add automation of conventional commits" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,8 +43,9 @@
     "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "pnpm",
-    "settings.editor.selected.configurable": "actions.on.save",
-    "ts.external.directory.path": "C:\\Users\\LEGION\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "prettierjs.PrettierConfiguration.Package": "D:\\Project\\KSMAndroidUPNVJ\\2024\\StudyClub\\WebIntermediate\\syahrul-aziz-web-intermediate-2024\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
+    "ts.external.directory.path": "D:\\Project\\KSMAndroidUPNVJ\\2024\\StudyClub\\WebIntermediate\\syahrul-aziz-web-intermediate-2024\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -64,6 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1731716445502</updated>
       <workItem from="1731716447615" duration="7916000" />
+      <workItem from="1731734339891" duration="347000" />
     </task>
     <task id="LOCAL-00001" summary="conf(eslint): upgrade eslint to v9.x and migrate config file">
       <option name="closed" value="true" />
@@ -81,7 +83,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731733337181</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ci(commitlint): add automation of conventional commits">
+      <option name="closed" value="true" />
+      <created>1731734545025</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731734545025</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +101,7 @@
     <MESSAGE value="conf(eslint): upgrade eslint to v9.x and migrate config file" />
     <MESSAGE value="conf(eslint): add lint-staged and commitlint&#10;&#10;- add lint-staged config to run prettier and eslint on staged files&#10;- add lint-staged to pre-commit hook&#10;- add lint-staged to pre-push hook&#10;- enable commitlint with husky" />
     <MESSAGE value="chore: format code" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: format code" />
+    <MESSAGE value="ci(commitlint): add automation of conventional commits" />
+    <option name="LAST_COMMIT_MESSAGE" value="ci(commitlint): add automation of conventional commits" />
   </component>
 </project>
