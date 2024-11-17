@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be457e20-440a-4529-997b-357d680ce870" name="Changes" comment="ci(commitlint): add automation of conventional commits">
+    <list default="true" id="be457e20-440a-4529-997b-357d680ce870" name="Changes" comment="feat(ui): install shadcn/ui and update configuration">
+      <change afterPath="$PROJECT_DIR$/app/_lib/utils.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/_styles/globals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
@@ -126,6 +129,7 @@
     <MESSAGE value="conf(eslint): add lint-staged and commitlint&#10;&#10;- add lint-staged config to run prettier and eslint on staged files&#10;- add lint-staged to pre-commit hook&#10;- add lint-staged to pre-push hook&#10;- enable commitlint with husky" />
     <MESSAGE value="chore: format code" />
     <MESSAGE value="ci(commitlint): add automation of conventional commits" />
-    <option name="LAST_COMMIT_MESSAGE" value="ci(commitlint): add automation of conventional commits" />
+    <MESSAGE value="feat(ui): install shadcn/ui and update configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(ui): install shadcn/ui and update configuration" />
   </component>
 </project>
