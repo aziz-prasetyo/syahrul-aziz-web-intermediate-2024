@@ -23,8 +23,17 @@ export default {
 					foreground: 'hsl(var(--popover-foreground))',
 				},
 				primary: {
-					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))',
+					100: 'hsl(var(--primary-100) / <alpha-values>',
+					200: 'hsl(var(--primary-200) / <alpha-values>',
+					300: 'hsl(var(--primary-300) / <alpha-values>',
+					400: 'hsl(var(--primary-400) / <alpha-values>',
+					DEFAULT: 'hsl(var(--primary-500) / <alpha-values>',
+					600: 'hsl(var(--primary-600) / <alpha-values>',
+					700: 'hsl(var(--primary-700) / <alpha-values>',
+					800: 'hsl(var(--primary-800) / <alpha-values>',
+					900: 'hsl(var(--primary-900) / <alpha-values>',
+					foreground:
+						'hsl(var(--primary-foreground) / <alpha-values>',
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
