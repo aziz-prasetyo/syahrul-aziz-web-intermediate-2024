@@ -36,6 +36,17 @@ body {
 		--secondary-700: 213deg 32% 54%;
 		--secondary-800: 216deg 38% 40%;
 		--secondary-900: 220deg 51% 30%;
+		/* black */
+		--black-100: 0deg 1% 77%;
+		--black-200: 30deg 1% 65%;
+		--black-300: 20deg 1% 50%;
+		--black-400: 30deg 3% 77%;
+		--black-500: 30deg 3% 25%;
+		--black-600: 20deg 3% 23%;
+		--black-700: 40deg 3% 17%;
+		--black-800: 30deg 3% 14%;
+		--black-900: 0deg 2% 10%;
+		/* white */
 		--muted: 240 4.8% 95.9%;
 		--muted-foreground: 240 3.8% 46.1%;
 		--accent: 240 4.8% 95.9%;

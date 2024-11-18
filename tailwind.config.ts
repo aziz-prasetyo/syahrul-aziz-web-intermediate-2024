@@ -48,6 +48,17 @@ export default {
 					foreground:
 						'hsl(var(--secondary-foreground) / <aplha-values>)',
 				},
+				black: {
+					100: 'hsl(var(--black-100) / <aplha-values>)',
+					200: 'hsl(var(--black-200) / <aplha-values>)',
+					300: 'hsl(var(--black-300) / <aplha-values>)',
+					400: 'hsl(var(--black-400) / <aplha-values>)',
+					DEFAULT: 'hsl(var(--black-500) / <aplha-values>)',
+					600: 'hsl(var(--black-600) / <aplha-values>)',
+					700: 'hsl(var(--black-700) / <aplha-values>)',
+					800: 'hsl(var(--black-800) / <aplha-values>)',
+					900: 'hsl(var(--black-900) / <aplha-values>)',
+				},
 				muted: {
 					DEFAULT: 'hsl(var(--muted))',
 					foreground: 'hsl(var(--muted-foreground))',
