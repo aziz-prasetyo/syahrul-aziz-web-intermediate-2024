@@ -47,6 +47,16 @@ body {
 		--black-800: 30deg 3% 14%;
 		--black-900: 0deg 2% 10%;
 		/* white */
+		--white-0: 0deg 0% 100%;
+		--white-100: 0deg 0% 98%;
+		--white-200: 0deg 0% 96%;
+		--white-300: 0deg 0% 94%;
+		--white-400: 0deg 0% 92%;
+		--white-500: 0deg 0% 90%;
+		--white-600: 0deg 0% 86%;
+		--white-700: 0deg 0% 67%;
+		--white-800: 0deg 0% 52%;
+		--white-900: 0deg 0% 40%;
 		--muted: 240 4.8% 95.9%;
 		--muted-foreground: 240 3.8% 46.1%;
 		--accent: 240 4.8% 95.9%;

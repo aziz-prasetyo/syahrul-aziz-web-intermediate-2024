@@ -59,6 +59,18 @@ export default {
 					800: 'hsl(var(--black-800) / <aplha-values>)',
 					900: 'hsl(var(--black-900) / <aplha-values>)',
 				},
+				white: {
+					100: 'hsl(var(--white-100) / <aplha-values>)',
+					200: 'hsl(var(--white-200) / <aplha-values>)',
+					300: 'hsl(var(--white-300) / <aplha-values>)',
+					400: 'hsl(var(--white-400) / <aplha-values>)',
+					500: 'hsl(var(--white-500) / <aplha-values>)',
+					600: 'hsl(var(--white-600) / <aplha-values>)',
+					700: 'hsl(var(--white-700) / <aplha-values>)',
+					800: 'hsl(var(--white-800) / <aplha-values>)',
+					900: 'hsl(var(--white-900) / <aplha-values>)',
+					DEFAULT: 'hsl(var(--white-0) / <alpha-value>)',
+				},
 				muted: {
 					DEFAULT: 'hsl(var(--muted))',
 					foreground: 'hsl(var(--muted-foreground))',
