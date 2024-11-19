@@ -93,6 +93,19 @@ export default {
 					800: 'hsl(var(--purple-800) / <aplha-values>)',
 					900: 'hsl(var(--purple-900) / <aplha-values>)',
 				},
+				warning: {
+					100: 'hsl(var(--warning-100) / <aplha-values>)',
+					200: 'hsl(var(--warning-200) / <aplha-values>)',
+					300: 'hsl(var(--warning-300) / <aplha-values>)',
+					400: 'hsl(var(--warning-400) / <aplha-values>)',
+					DEFAULT: 'hsl(var(--warning-500) / <aplha-values>)',
+					600: 'hsl(var(--warning-600) / <aplha-values>)',
+					700: 'hsl(var(--warning-700) / <aplha-values>)',
+					800: 'hsl(var(--warning-800) / <aplha-values>)',
+					900: 'hsl(var(--warning-900) / <aplha-values>)',
+					foreground:
+						'hsl(var(--warning-foreground) / <aplha-values>)',
+				},
 				muted: {
 					DEFAULT: 'hsl(var(--muted))',
 					foreground: 'hsl(var(--muted-foreground))',

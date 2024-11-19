@@ -77,6 +77,17 @@ body {
 		--purple-700: 283deg 60% 28%;
 		--purple-800: 278deg 68% 22%;
 		--purple-900: 273deg 75% 17%;
+		/* warning */
+		--warning-100: 50deg 100% 90%;
+		--warning-200: 50deg 100% 81%;
+		--warning-300: 48deg 100% 71%;
+		--warning-400: 46deg 100% 64%;
+		--warning-500: 45deg 100% 52%;
+		--warning-foreground: 30deg 3% 25%;
+		--warning-600: 43deg 93% 45%;
+		--warning-700: 42deg 94% 37%;
+		--warning-800: 40deg 96% 29%;
+		--warning-900: 39deg 97% 24%;
 		--muted: 240 4.8% 95.9%;
 		--muted-foreground: 240 3.8% 46.1%;
 		--accent: 240 4.8% 95.9%;
