@@ -65,6 +65,7 @@ body {
 		--orange-300: 32deg 85% 74%;
 		--orange-400: 28deg 78% 66%;
 		--orange-500: 25deg 74% 54%;
+		--orange-foreground: 0deg 0% 98%;
 		--orange-600: 21deg 68% 45%;
 		--orange-700: 18deg 73% 36%;
 		--orange-800: 14deg 78% 28%;
@@ -75,6 +76,7 @@ body {
 		--purple-300: 301deg 60% 72%;
 		--purple-400: 297deg 45% 59%;
 		--purple-500: 292deg 46% 43%;
+		--purple-foreground: 0deg 0% 98%;
 		--purple-600: 287deg 52% 35%;
 		--purple-700: 283deg 60% 28%;
 		--purple-800: 278deg 68% 22%;
