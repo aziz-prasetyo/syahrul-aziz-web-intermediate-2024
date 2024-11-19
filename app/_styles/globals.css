@@ -66,8 +66,17 @@ body {
 		--orange-600: 21deg 68% 45%;
 		--orange-700: 18deg 73% 36%;
 		--orange-800: 14deg 78% 28%;
-		--orange-900: 25deg 74% 54%;
+		--orange-900: 11deg 84% 23%;
 		/* purple */
+		--purple-100: 311deg 76% 92%;
+		--purple-200: 307deg 76% 84%;
+		--purple-300: 301deg 60% 72%;
+		--purple-400: 297deg 45% 59%;
+		--purple-500: 292deg 46% 43%;
+		--purple-600: 287deg 52% 35%;
+		--purple-700: 283deg 60% 28%;
+		--purple-800: 278deg 68% 22%;
+		--purple-900: 273deg 75% 17%;
 		--muted: 240 4.8% 95.9%;
 		--muted-foreground: 240 3.8% 46.1%;
 		--accent: 240 4.8% 95.9%;
