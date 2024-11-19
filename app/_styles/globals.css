@@ -126,8 +126,9 @@ body {
 		/* muted */
 		--muted: 240deg 5% 96%;
 		--muted-foreground: 240deg 4% 46%;
-		--accent: 240 4.8% 95.9%;
-		--accent-foreground: 240 5.9% 10%;
+		/* accent */
+		--accent: 168deg 30% 81%;
+		--accent-foreground: 206deg 5% 15%;
 		--destructive: 0 84.2% 60.2%;
 		--destructive-foreground: 0 0% 98%;
 		--border: 206deg 30% 81%;
