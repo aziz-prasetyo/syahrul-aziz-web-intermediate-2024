@@ -141,6 +141,7 @@ body {
 		--chart-5: 27 87% 67%;
 		--radius: 0.5rem;
 	}
+
 	.dark {
 		--background: 240 10% 3.9%;
 		--foreground: 0 0% 98%;
@@ -167,13 +168,69 @@ body {
 		--chart-4: 280 65% 60%;
 		--chart-5: 340 75% 55%;
 	}
-}
 
-@layer base {
 	* {
 		@apply border-border;
+		scrollbar-width: thin;
+		scrollbar-color: hsl(var(--border)) transparent;
 	}
+
+	html {
+		@apply scroll-smooth;
+	}
+
 	body {
-		@apply bg-background text-foreground;
+		@apply overscroll-none bg-background text-foreground;
+		font-synthesis-weight: none;
+		text-rendering: optimizeLegibility;
+	}
+
+	@supports (font: -apple-system-body) and (-webkit-appearance: none) {
+		[data-wrapper] {
+			@apply min-[1800px]:border-t;
+		}
+	}
+
+	/* custom scrollbar styling */
+	::-webkit-scrollbar {
+		width: 4px;
+	}
+
+	::-webkit-scrollbar-track {
+		background: transparent;
+		border-radius: 4px;
+	}
+
+	::-webkit-scrollbar-thumb {
+		background: hsl(var(--border));
+		border-radius: 4px;
+	}
+}
+
+@layer utilities {
+	.chunk-container {
+		@apply shadow-none;
+	}
+
+	.chunk-container::after {
+		content: '';
+		@apply absolute -inset-4 rounded-xl border shadow-xl;
+	}
+
+	/* hide scrollbar for chrome, safari and opera */
+	.no-scrollbar::-webkit-scrollbar {
+		display: none;
+	}
+
+	/* hide scrollbar for ie, edge and firefox */
+	.no-scrollbar {
+		-ms-overflow-style: none; /* ie and edge */
+		scrollbar-width: none; /* firefox */
+	}
+}
+
+@media (max-width: 640px) {
+	.container {
+		@apply px-4;
 	}
 }
