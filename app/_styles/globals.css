@@ -110,6 +110,17 @@ body {
 		--success-700: 139deg 69% 30%;
 		--success-800: 144deg 75% 24%;
 		--success-900: 151deg 81% 19%;
+		/* info */
+		--info-100: 207deg 93% 94%;
+		--info-200: 208deg 96% 89%;
+		--info-300: 211deg 95% 83%;
+		--info-400: 214deg 93% 78%;
+		--info-500: 216deg 92% 71%;
+		--info-foreground: 0deg 0% 98%;
+		--info-600: 218deg 62% 58%;
+		--info-700: 221deg 52% 46%;
+		--info-800: 223deg 60% 35%;
+		--info-900: 225deg 70% 27%;
 		--muted: 240 4.8% 95.9%;
 		--muted-foreground: 240 3.8% 46.1%;
 		--accent: 240 4.8% 95.9%;
