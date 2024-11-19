@@ -106,6 +106,19 @@ export default {
 					foreground:
 						'hsl(var(--warning-foreground) / <aplha-values>)',
 				},
+				danger: {
+					100: 'hsl(var(--danger-100) / <aplha-values>)',
+					200: 'hsl(var(--danger-200) / <aplha-values>)',
+					300: 'hsl(var(--danger-300) / <aplha-values>)',
+					400: 'hsl(var(--danger-400) / <aplha-values>)',
+					DEFAULT: 'hsl(var(--danger-500) / <aplha-values>)',
+					600: 'hsl(var(--danger-600) / <aplha-values>)',
+					700: 'hsl(var(--danger-700) / <aplha-values>)',
+					800: 'hsl(var(--danger-800) / <aplha-values>)',
+					900: 'hsl(var(--danger-900) / <aplha-values>)',
+					foreground:
+						'hsl(var(--danger-foreground) / <aplha-values>)',
+				},
 				muted: {
 					DEFAULT: 'hsl(var(--muted))',
 					foreground: 'hsl(var(--muted-foreground))',

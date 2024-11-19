@@ -88,6 +88,17 @@ body {
 		--warning-700: 42deg 94% 37%;
 		--warning-800: 40deg 96% 29%;
 		--warning-900: 39deg 97% 24%;
+		/* danger */
+		--danger-100: 20deg 100% 93%;
+		--danger-200: 14deg 100% 86%;
+		--danger-300: 9deg 100% 79%;
+		--danger-400: 4deg 100% 74%;
+		--danger-500: 359deg 100% 65%;
+		--danger-foreground: 0deg 0% 98%;
+		--danger-600: 359deg 69% 54%;
+		--danger-700: 348deg 66% 43%;
+		--danger-800: 343deg 72% 34%;
+		--danger-900: 338deg 79% 27%;
 		--muted: 240 4.8% 95.9%;
 		--muted-foreground: 240 3.8% 46.1%;
 		--accent: 240 4.8% 95.9%;
