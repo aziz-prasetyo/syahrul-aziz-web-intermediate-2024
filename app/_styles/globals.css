@@ -99,6 +99,17 @@ body {
 		--danger-700: 348deg 66% 43%;
 		--danger-800: 343deg 72% 34%;
 		--danger-900: 338deg 79% 27%;
+		/* success */
+		--success-100: 105deg 82% 91%;
+		--success-200: 112deg 82% 83%;
+		--success-300: 117deg 70% 71%;
+		--success-400: 123deg 57% 60%;
+		--success-500: 128deg 58% 45%;
+		--success-foreground: 0deg 0% 98%;
+		--success-600: 134deg 64% 38%;
+		--success-700: 139deg 69% 30%;
+		--success-800: 144deg 75% 24%;
+		--success-900: 151deg 81% 19%;
 		--muted: 240 4.8% 95.9%;
 		--muted-foreground: 240 3.8% 46.1%;
 		--accent: 240 4.8% 95.9%;
