@@ -1,7 +1,9 @@
+import { MoveLeft } from 'lucide-react';
 import Link from 'next/link';
-import { Button } from './_components/ui/button';
 
-export default function NotFound() {
+import { Button } from '~/app/_components/ui/button';
+
+const NotFound = () => {
 	return (
 		<main className='grid min-h-dvh place-items-center'>
 			<section>
@@ -13,17 +15,15 @@ export default function NotFound() {
 						<p className='mb-4 text-3xl font-bold tracking-tight'>
 							Page Not Found
 						</p>
-						<p className='mb-4 text-lg text-foreground'>
+						<p className='mb-4 text-lg font-light text-foreground'>
 							Sorry, we couldn&apos;t find the page you&apos;re
 							looking for.
 						</p>
-						<div className='mt-5 flex justify-center gap-x-6'>
-							<Button variant={'default'}>
-								<Link
-									href={'/'}
-									className='text-sm'
-								>
-									&larr; Back To Home
+						<div className='mt-12 flex items-center justify-center gap-x-6'>
+							<Button asChild>
+								<Link href='/'>
+									<MoveLeft className='mr-2 h-4 w-4' /> Back
+									to Home
 								</Link>
 							</Button>
 						</div>
@@ -32,4 +32,6 @@ export default function NotFound() {
 			</section>
 		</main>
 	);
-}
+};
+
+export default NotFound;
