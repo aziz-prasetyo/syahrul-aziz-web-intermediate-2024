@@ -1,38 +1,44 @@
 'use client';
 
 import { useEffect } from 'react';
-import { Button } from './_components/ui/button';
+
+import { Button } from '~/app/_components/ui/button';
 
 interface ErrorProps {
 	error: Error;
 	reset: () => void;
 }
 
-export default function Error({ error, reset }: ErrorProps) {
+const Error: React.FC<ErrorProps> = ({ error, reset }) => {
 	useEffect(() => {
+		// Log the error to an error reporting service
 		console.error(error);
 	}, [error]);
+
 	return (
-		<main className='pt-15 flex min-h-screen flex-col items-center justify-center'>
-			<div className='text-center'>
-				<p className='text-7xl font-extrabold text-primary lg:text-9xl'>
-					500
-				</p>
-				<h1 className='mt-3 text-4xl font-bold tracking-tight'>
-					Something went wrong
-				</h1>
-				<p className='mt-3 text-lg leading-7 text-black-600'>
-					There was an error processing your request.
-				</p>
-				<div className='mt-3 flex justify-center gap-x-6'>
-					<Button
-						onClick={() => reset()}
-						variant={'default'}
-					>
-						Try Again
-					</Button>
+		<main className='grid min-h-dvh place-items-center'>
+			<section>
+				<div className='mx-auto max-w-screen-xl px-4 py-8 lg:px-6 lg:py-16'>
+					<div className='mx-auto max-w-screen-sm text-center'>
+						<h1 className='mb-4 text-7xl font-extrabold tracking-tight text-primary lg:text-9xl'>
+							500
+						</h1>
+						<p className='mb-4 text-3xl font-bold tracking-tight'>
+							Internal Server Error
+						</p>
+						<p className='mb-4 text-lg font-light text-muted-foreground'>
+							We are already working to solve the problem.
+						</p>
+						<Button
+							onClick={() => reset()} // Attempt to recover by trying to re-render the segment
+						>
+							Try Again
+						</Button>
+					</div>
 				</div>
-			</div>
+			</section>
 		</main>
 	);
-}
+};
+
+export default Error;
